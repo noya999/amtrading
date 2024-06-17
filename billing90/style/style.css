@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: #000000;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #ffffff;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #000000;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #088178;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+.des {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 500px;
+    height: 850px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    right: -1000px;
+}
+
+.paypalbutton {
+    border-radius: 10px;
+    background-color: #FFC439;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 400px;
+    height: 90px;
+    border: none;
+}
+
+.paypallogo {
+    position: relative;
+    width: 250px;
+    height: 50px;
+    top: 2px;
+}
+
+.paypalbutton:hover{
+    background-color: #f5ab00;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    margin: 0px;
+    padding: 0px;
+}
+
+#haken li {
+    color: white;
+    text-decoration: none;
+    align-items: left;
+    justify-content: left;
+    list-style: none;
+}
+
+hr.box1{
+    position: relative;
+    width: 400px;
+    right: -50px;
+    top: 0px;
+}
