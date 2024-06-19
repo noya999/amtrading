@@ -66,18 +66,7 @@ body {
     left: 20px;
 }
 
-.wrapper {
-    width: 420px;
-    display: flex;
+.maintenance {
+    position: relative;
     justify-content: center;
-    align-items: center;
-    color: white;
-    min-height: 90vh;
-    background-color: #111111;
-    border-radius: 15px;
-}
-
-.wrapper h1{
-    font-size: 36px;
-    text-align: center;
 }
