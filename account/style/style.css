@@ -75,4 +75,6 @@ h2 {
 .maintenance {
     position: relative;
     justify-content: center;
+    text-align: center;
+    top: 150px;
 }
